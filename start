@@ -1,7 +1,0 @@
-apt update && apt upgrade -y
-apt install git -y
-pip3 install -U pip
-git clone https://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:x-oauth-basic@github.com/Itzfuck/ummc Github_Repo
-cd Github_Repo
-pip3 install -U -r requirements.txt
-python3 -m Zaid

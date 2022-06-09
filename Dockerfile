@@ -19,5 +19,4 @@ COPY app.py app.py
 
 EXPOSE 5000
 RUN chmod +x /app/start.sh
-CMD bash start
 ENTRYPOINT ["./start.sh"]

@@ -1,4 +1,4 @@
-FROM python3.10-nodejs18
+FROM nikolaik/python-nodejs:python3.10-nodejs18
 ARG DEBIAN_FRONTEND=noninteractive 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install git curl python3-pip ffmpeg -y

@@ -1,4 +1,4 @@
-FROM python:3.9.7-slim-buster
+FROM node:16
 ARG DEBIAN_FRONTEND=noninteractive 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install git curl python3-pip ffmpeg -y
